@@ -1,0 +1,287 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barradenavegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+.barradenavegacion input{
+    width: 320px;
+    height: 40px;
+}
+#lupa{
+    position: relative;
+    right: 45px;
+    top: 08px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration:wavy;
+    color: rgb(0, 128, 255);
+}
+#LogoMain{
+    height: 40px;
+    width: 90px;
+}
+#banner{
+    transform: scale(1.00);
+    width: 100%;
+}
+
+#banner:hover{
+transform: scale(1.01);
+cursor: pointer;
+transition: 0.5s;
+}
+
+.contenedor-banner{
+    justify-content: center;
+    padding-top: 10%;
+}
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#TitulosNovedades{
+    text-align: center;
+}
+#TitulosTendencia{
+    margin-top: 7   Q0px;
+    text-align: center;
+}
+#Novedades{
+    align-content: space-between;
+    display: flex;
+    text-align: center;
+}
+.novedadimagen{
+width: 100%;
+}
+#nove1{
+margin: 10px;
+}
+#nove2{
+margin: 10px;
+}
+#nove1:hover{
+transform: scale(1.01);
+cursor: pointer;
+transition: 0.5s;
+}
+#nove2:hover{
+transform: scale(1.01);
+cursor: pointer;
+transition: 0.5s;
+}
+.nov-contenedor{
+margin: 15px;
+}
+.texto-nov{
+    background-color: rgb(255, 255, 255);
+}
+.slider-container {
+    width: 100%; /* Ancho del slider */
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s;
+}
+.slider2 {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slide {
+    flex: 0 0 25%; /* 4 imágenes visibles a la vez */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagenslider {
+    width: 100%;
+    height: auto;
+}
+
+.botonslider {
+    margin-top: 10px;
+}
+
+#barramarvel{
+    width: 80%;
+}
+.banermarvel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ParteAzul{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color:rgb(16, 16, 60);
+ /*   justify-content: space-between; */
+}
+.ParteAzul2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%; 
+    height: 100px;
+    background-color: rgb(16, 16, 60);
+ /*   justify-content: space-between; */
+}
+.tituloazul{
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    bottom: 240px;
+}
+#ImagenAzul{
+    width: 60%;
+    height: 40%;
+}
+.tendenciaimg{
+    width:200px;
+    height: 100%;
+}
+.primerf{
+    padding-top: 100px;
+    display: flex;
+    justify-content:stretch ;
+    align-items: flex-end;
+}
+#LogoF{
+    width: 8%;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+.logo-centrado{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logof{
+    width:90px;
+    height: 45px;
+}
+.segundof{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.butonslider1{
+    cursor: pointer;
+    position:relative;
+    top: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+}
+.butonslider2{
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    left: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+}
+.butonslider3{
+    cursor: pointer;
+    position:relative;
+    top: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+}
+.butonslider4{
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    left: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    -webkit-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 4px 3px 0px rgba(0,0,0,0.3);
+}
+.segundof a {
+    font-size: x-small;
+    color: rgb(146, 144, 144);
+}
+.footerfinal{
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    text-align: center;
+}
+.pf1{
+    padding-right: 20px;
+}
+.pf2{
+    padding-right: 20px;
+}
+.pf3{
+    padding-right: 20px;
+}
+.pf4{
+    padding-right: 20px;
+}
+.pf5{
+    padding-right: 20px;
+}
+.textoslider{
+    cursor: pointer;
+    font-weight: lighter;
+}
+.textoslider:hover{
+    font-weight: lighter;
+    color: blue;
+}
+.animacionslider{
+cursor: pointer;
+}
+.animacionslider:hover{
+transform: scale(0.97);
+cursor: pointer;
+transition: 0.5s;
+}
+    
